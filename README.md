@@ -1,7 +1,7 @@
 # node_server
 Server built entirely on Node.js for delivering web content. 
 
-Add html, css, js files to './public'. 
+Add html, css, js, images to './public'. 
 Server code on index.js 
 ---------------------------------------------------------------------
 Demonstration: https://evening-reef-89791.herokuapp.com/
