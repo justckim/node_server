@@ -1,5 +1,5 @@
 # node_server
-Server built entirely on Node.js for delivering web content. 
+Server built purely on Node.js (no frameworks) for delivering web content. 
 
 Add html, css, js, images to './public'.
 Server code on index.js \
