@@ -10,16 +10,16 @@ const server = http.createServer((req, res) => {
   // Else, req.url 
   let filePath = path.join(__dirname, 'public', req.url === '/' ? 'index.html' : req.url);
 
-  // Extension of file
+  // Get file extension
   let extname = path.extname(filePath);
 
-  // Set initial content type
+  // Set initial content-   type for reponse header
   let contentType = 'text/html';
 
-  // Check extension and set content type 
+  // Check extension and set content-type 
   switch(extname) {
     case '.js': 
-      contentType: 'text/javascript';
+      contentType = 'text/javascript';
       break;
     case '.css':
       contentType = 'text/css';
