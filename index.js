@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
       break;
   }
 
-  // Read file - this will also work for additional files (CSS, JS) that your html files are linked to. Will make an HTTP request after html file is loaded, and then server will deliver CSS/JS 
+  // Read file - this will also work for additional files (CSS, JS) that your html files are linked to. Browser will make additional HTTP requests after html file is retrieved for CSS/JS  
   fs.readFile(filePath, (err, content) => {
     // Error is an object with property containing error code
     if(err) {
