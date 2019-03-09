@@ -1,5 +1,7 @@
+.gitignore
 node_modules
 reference
 index_ref.js
 logger.js
 person.js
+node crash course notes.txt
